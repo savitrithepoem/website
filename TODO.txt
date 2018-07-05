@@ -1,0 +1,37 @@
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="savitri, aurobindo, poetry, spiritual poetry" />
+  <meta name="title" content="Book I, Canto" />
+  <title></title>     
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="savitri, aurobindo, poetry, spiritual poetry" />
+  <meta name="title" content="Introduction to letters on Savitri" />
+  <title>Introduction to letters on Savitri</title>      
+
+TODO before release on Feb 21
+=============================
+- Sri Aurobindo's pic in logo needs to be touched up
+- test with other browsers: firefox, opera, chrome on cell, IE
+- need to add music to canto XI
+
+TODO
+- some words are hypenhated  incorrectly, fix them
+- in letters, div.left_margin_50_px, I have italicized the text; remove it
+- in the poem, add one more line between each page
+- on my desktop, /home/lk/projects/website/savitri/previous_savitri_website/ma_on_savitri.htm; from
+  from take Mother on Savitri and other texts
+- music: book III Canto II O soul it is too early to rejoice has the wrong the wrong metadta title
+  embedded in the mp3 file
+    
+
+Letters:4
+P752:bottom: a gesture came should use that big paranthesis symbol
+
+All <sup>1</sup> at the bottom of the page should have a space before the number
+
+Review:
+=======
+All parts of letters

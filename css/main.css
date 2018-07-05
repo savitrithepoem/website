@@ -1,0 +1,466 @@
+
+/*
+ * Page layout
+ */
+ 
+ /*
+  * 407e95
+  * 5c9cb3
+  * 6c4aaa
+  * 5db681 - nice green
+  * 2f2f2f - dark gray
+  * 28557b
+  */
+  
+body {
+    /*background-color: #4293d2;*/
+    background-color: #2f2f2f;
+    margin: 0 auto;
+}
+
+div.header {
+    color: white;
+    /*text-align: center;*/
+    width: 960px;
+    height: 199px;
+    margin: 0 auto;
+    background-image: url('../images/header_sa_young.jpg');
+}
+
+div.random_quote {
+    margin: 0 0 0 230px;
+    font-size: 10pt;
+	font-family: 'Quicksand', 'helvetica', sans-serif;
+}
+
+div.body {
+    width: 960px;
+    margin: auto;
+    background-color: #f3f4f6;
+}
+
+div.footer {
+    color: white;
+    text-align: center;
+    width: 960px;
+    height: 20px;
+    margin: auto;
+    /*background-image: url('../images/footer_bg1.png');*/
+    /*background-image: url('../images/breadcrubms_bg.png');*/
+    /*background-repeat: no-repeat;*/
+    background-color:#0e54a9;
+   	font-size: 10pt;
+	font-family: helvetica, sans-serif, "times new roman";
+    padding: 5px 0 0 0;
+} 
+
+div.breadcrumbs {
+    width: 960px;
+    height: 28px;
+    margin: auto;
+    background-image: url('../images/breadcrubms_bg.png');
+   	font-size: 10pt;
+	font-family: helvetica, sans-serif, "times new roman";
+    padding: 8px 0 0 0;
+}
+
+a.breadcrumbs {
+    text-decoration: none;
+    color: blue;
+}
+
+p.savitri_text {
+    margin: 10px 10px 10px 10px;
+   	font-size: 14pt;
+	font-family: 'Quicksand', 'helvetica', sans-serif;
+}
+ 
+p.savitri_text_justified {
+    margin: 10px 20px 10px 20px;
+   	font-size: 14pt;
+	font-family: 'Quicksand', 'helvetica', sans-serif;
+    text-align: justify;
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0e54a9;
+    top: 8px;
+    width: 100%;
+   	font-size: 11pt;
+	font-family: helvetica, sans-serif, "times new roman";    
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    padding: 8px 15px 15px 10px;
+    text-decoration: none;
+    height: 10px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ae0a5b; /*#ae0a5b; /*#00a887; /*#00afcb; #07b9be; */
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* dropdown menu hover */
+.dropdown-content a:hover {
+    background-color: #eaeaea; /*#e5e5e5; f1f1f1*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+p.title {
+	font-size: 1em;
+	color: teal;
+    margin: 10px 0 5px 0;
+}
+
+hr.title {
+	/*color: DarkCyan;*/
+	color: LightSlateGray;
+    margin: 0;
+}
+
+a.toc {
+    text-decoration: none;
+    font-size: 11pt;
+    color: #0275d8;
+}
+ a.toc:hover {
+    color: #123456;
+    /*text-decoration: underline;*/
+ }
+ 
+/* 
+ * for displaying poem text in rounded boxes 
+ */
+
+.savitri_text {
+	/* width: 600; */
+	width: 100%;
+	border: 0px solid black;
+	color: #000000;
+	font-size: 12pt;
+	font-family: helvetica, sans-serif, "times new roman";
+}
+
+.td_top_left {
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/rounded_top_left.jpg');
+}
+
+.td_top_right {
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/rounded_top_right.jpg');
+}
+
+.td_bottom_left {
+	width: 40px;
+	height: 40px; 
+	background-image: url('../images/rounded_bottom_left.jpg');
+}
+
+.td_bottom_right {
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/rounded_bottom_right.jpg');
+}
+
+.td_left {
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/left_line.jpg');
+}
+
+.td_right {
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/right_line.jpg');
+}
+
+.td_hdr_top {
+	background-image: url('../images/top_line.jpg');
+	color: #16314f;
+}
+
+.td_hdr_top_tiny {
+	background-image: url('../images/top_line.jpg');
+	color: #16314f;
+	font-size: 10pt;
+}
+
+.td_hdr_bottom {
+	font-size: 0.8em;
+	text-align: center;
+	color: #666666;
+	background-color: #b1c7e0;
+	background-image: url('../images/bottom_line.jpg');
+}
+
+.td_page_num {
+	text-align: right;
+	color: #16314f;
+	background-image: url('../images/top_line.jpg');
+}
+
+.td_page_num_tiny {
+	text-align: right;
+	color: #16314f;
+	background-image: url('../images/top_line.jpg');
+	font-size: 8pt;
+}
+
+.td_poem_text {
+	line-height: 140%;
+}
+
+div.left_margin_50_px {
+    margin: 0 0 0 50px;
+    font-size: 12pt;
+	font-family: 'Quicksand', 'helvetica', sans-serif;
+    text-align: justify;
+}
+
+div.right_aligned_date {
+    text-align: right;
+    font-family: 'Quicksand', 'helvetica', sans-serif;
+    margin: 10px 20px 10px 20px;
+}
+
+p.small_savitri_text {
+    margin: 10px 20px 10px 20px;
+   	font-size: 12pt;
+	font-family: 'Quicksand', 'helvetica', sans-serif;
+    text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+}
+
+/* 
+ * for displaying table of contents in rounded boxes 
+ */
+
+div.toc {
+    margin: 20px;
+}
+
+.toc_text {
+	width: 705;
+	border: 0px solid black;
+	color: #000000;
+	/*font-size: 12pt;*/
+}
+
+.savitri_text {
+	width: 700;
+	border: 0px solid black;
+	color: #000000;
+	/*font-size: 12pt;*/
+}
+
+.td_toc_left_hdr {
+	background-image: url('../images/top_line.jpg');
+	color: #16314f;
+	width: 80px;
+	font-size: 12pt;
+}
+
+.td_toc_right_hdr {
+	background-image: url('../images/top_line.jpg');
+	color: #16314f;
+	width: 540px;
+	font-size: 12pt;
+}
+
+.td_toc_left {
+	background-image: url('../images/left_line.jpg');
+}
+
+.td_toc_right {
+	background-image: url('../images/right_line.jpg');
+}
+
+.td_toc_text {
+	line-height: 160%;
+    font-size: 11pt;
+}
+
+.td_bottom_left_small {
+	height: 10px;
+	background-image: url('../images/rounded_bottom_left_small.jpg');
+    background-repeat: no-repeat;
+}
+
+.td_bottom_right_small {
+	height: 10px;
+	background-image: url('../images/rounded_bottom_right_small.jpg');
+    background-repeat: no-repeat;
+}
+
+.td_bottom {
+        background-color: #b1c7e0;
+        background-image: url('../images/bottom_line_small.jpg');
+}
+
+/* search engine highlighting */
+
+.searchword {
+	background-color: yellow;
+}   
+
+/* 
+ * page header 
+ */
+.para_header {
+	font-size: 1em;
+	color: teal;
+    text-align: center;
+    width: 700;
+}
+
+.para_header_tiny {
+	font-size: 8pt;
+	text-align: center;
+	color: teal;
+    width: 700;
+}
+
+.title {
+	font-size: 1.5em;
+	color: teal;
+}
+
+hr.title {
+	/*color: DarkCyan;*/
+	color: LightSlateGray;
+}
+
+.text {
+	color: #000;
+	font-size: 11pt;
+	font-family: helvetica, sans-serif, "times new roman";
+	text-align: justify;
+	line-height: normal;
+}
+
+.standout {
+	color: #A52A2A;
+	font-style: italic;
+}
+
+/* music table of contents */
+
+.table_music {
+	width: 100%;
+}
+
+.td_music_hdr_left {
+	background-image: url('../images/27pixel_top_line.jpg');
+	color: #16314f;
+	width: 90px;
+	height: 27px;
+	font-size: 11pt;
+}
+
+.td_music_hdr_left_tiny {
+	background-image: url('../images/27pixel_top_line.jpg');
+    /*background-repeat: no-repeat;*/
+	color: #16314f;
+	width: 90px;
+	height: 27px;
+	font-size: 8pt;
+}
+
+.td_music_hdr_right {
+	background-image: url('../images/27pixel_top_line.jpg');
+	color: #16314f;
+	width: 440px;
+	height: 27px;
+	font-size: 11pt;
+}
+
+.td_music_hdr_right_tiny {
+	background-image: url('../images/27pixel_top_line.jpg');
+    /*background-repeat: no-repeat;*/
+	color: #16314f;
+	width: 440px;
+	height: 27px;
+	font-size: 8pt;
+}
+
+.td_music_hdr_small_left {
+	background-image: url('../images/27pixel_top_line.jpg');
+	color: #16314f;
+	width: 90px;
+	height: 27px;
+	font-size: 9pt;
+}
+
+.td_music_hdr_small_right {
+	background-image: url('../images/27pixel_top_line.jpg');
+	color: #16314f;
+	width: 440px;
+	height: 27px;
+	font-size: 9pt;
+}
+
+.td_music_title {
+	width: 76%;
+	background-color: #dddddd;
+	height: 22px;
+	border: 1px;
+}
+
+.td_music_col {
+	width: 12%;
+	background-color: #dddddd;
+	text-align: center;
+    font-size: 10pt;
+}
+
+.td_music_canto {
+	line-height: 160%;
+	background-color: #dddddd;
+	text-align: center;
+}
