@@ -26,7 +26,6 @@ TODO
   from take Mother on Savitri and other texts
 - music: book III Canto II O soul it is too early to rejoice has the wrong the wrong metadta title
   embedded in the mp3 file
-- music files must not launch in new window due to pop-up blockers
     
 
 Letters:4
