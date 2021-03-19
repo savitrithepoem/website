@@ -14,7 +14,8 @@ ddd
   <title>Introduction to letters on Savitri</title>      
 
 1. Change Mother reading savitri to make it similar to .ru website
-2. 
+2. Change Misc button to something else
+
 TODO before release on Feb 21
 =============================
 - test with other browsers: firefox, opera, chrome on cell, IE
