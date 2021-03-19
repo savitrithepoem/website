@@ -13,6 +13,8 @@ ddd
   <meta name="title" content="Introduction to letters on Savitri" />
   <title>Introduction to letters on Savitri</title>      
 
+1. Change Mother reading savitri to make it similar to .ru website
+2. 
 TODO before release on Feb 21
 =============================
 - test with other browsers: firefox, opera, chrome on cell, IE
